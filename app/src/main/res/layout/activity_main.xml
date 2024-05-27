@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@android:style/TextAppearance.DeviceDefault.Medium"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn3Words"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickPlay"
+        android:text="@string/_3_letters"
+        app:layout_constraintBottom_toTopOf="@+id/btn4Words"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias=".1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/btn7Words"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickPlay"
+        android:text="@string/_7_letters"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/btn6Words"
+        app:layout_constraintTop_toBottomOf="@+id/btn6Words" />
+
+    <Button
+        android:id="@+id/btn6Words"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickPlay"
+        android:text="@string/_6_letters"
+        app:layout_constraintBottom_toTopOf="@+id/btn7Words"
+        app:layout_constraintStart_toStartOf="@+id/btn5Words"
+        app:layout_constraintTop_toBottomOf="@+id/btn5Words" />
+
+    <Button
+        android:id="@+id/btn4Words"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickPlay"
+        android:text="@string/_4_letters"
+        app:layout_constraintBottom_toTopOf="@+id/btn5Words"
+        app:layout_constraintStart_toStartOf="@+id/btn3Words"
+        app:layout_constraintTop_toBottomOf="@+id/btn3Words" />
+
+    <Button
+        android:id="@+id/btnSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/settings"
+        app:layout_constraintBottom_toBottomOf="@+id/btn3Words"
+        app:layout_constraintEnd_toEndOf="@+id/btnStats"
+        app:layout_constraintTop_toTopOf="@+id/btn3Words" />
+
+    <Button
+        android:id="@+id/btnStats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/stats"
+        app:layout_constraintBottom_toBottomOf="@+id/btn4Words"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias=".9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btn4Words" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/logo_description"
+        app:layout_constraintBottom_toTopOf="@id/btn3Words"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+    <Button
+        android:id="@+id/btn5Words"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickPlay"
+        android:text="@string/_5_letters"
+        app:layout_constraintBottom_toTopOf="@+id/btn6Words"
+        app:layout_constraintStart_toStartOf="@+id/btn4Words"
+        app:layout_constraintTop_toBottomOf="@+id/btn4Words" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

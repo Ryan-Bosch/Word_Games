@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/vertical_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackgroundDark">
+
+    <TextView
+        android:id="@+id/TestTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="wow"
+        android:textColor="#FFFFFF"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/et_focus"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:cursorVisible="false"
+        android:importantForAutofill="no"
+        android:inputType="text|textImeMultiLine|textMultiLine|textNoSuggestions"
+        android:textColor="@color/colorText"
+        tools:ignore="LabelFor" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/game_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

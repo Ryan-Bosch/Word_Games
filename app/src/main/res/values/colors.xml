@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green_main">#007500</color>
+    <color name="green_off">#00A300</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="grey_main">#292929</color>
+    <color name="grey_off">#5A5A5A</color>
+
+    <array name="subjectColors">
+        <item>#1A237E</item>
+        <item>#880E4F</item>
+        <item>#006064</item>
+        <item>#F57F17</item>
+        <item>#BF360C</item>
+        <item>#01579B</item>
+        <item>#33691E</item>
+        <item>#4A148C</item>
+        <item>#B71C1C</item>
+    </array>
+
+    <!-- Dark theme colors -->
+    <color name="colorBackgroundDark">#000</color>
+    <color name="colorAppBar">#023</color>
+    <color name="colorText">#BBB</color>
+    <color name="colorTextSecondary">#999</color>
+    <color name="colorButton">#555</color>
+    <color name="gold">#FFD700</color>
+</resources>

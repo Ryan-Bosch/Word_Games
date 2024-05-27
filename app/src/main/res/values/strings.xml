@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Word Games</string>
+    <string name="play">Play</string>
+    <string name="logo_description">TODO</string>
+    <string name="settings">Settings</string>
+    <string name="stats">Stats</string>
+    <string name="_3_letters">3 Letters</string>
+    <string name="_7_letters">7 Letters</string>
+    <string name="_6_letters">6 Letters</string>
+    <string name="_4_letters">4 Letters</string>
+    <string name="_5_letters">5 Letters</string>
+</resources>
